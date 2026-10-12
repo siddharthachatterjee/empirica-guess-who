@@ -1,0 +1,10 @@
+factors:
+    - name: playerCount
+      desc: Number of players in a Guess Who game.
+      values:
+        - value: 2
+treatments:
+    - name: Two Players
+      desc: Two-player Guess Who game
+      factors:
+        playerCount: 2
